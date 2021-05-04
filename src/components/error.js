@@ -5,9 +5,9 @@ export class Error extends Component {
   render() {
     return (
       <div className="error">
+                <h1>City not found !</h1>
         <h3>{this.props.dataErorr}</h3>
-        <h3>{this.props.dataStatus}</h3>
-        <img src={crash} style={{ width: "6rem" }} className="logo" />
+        <h3>Error status: {this.props.dataStatus}</h3>
       </div>
     );
   }

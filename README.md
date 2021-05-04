@@ -25,8 +25,8 @@ The basic design for this web page is illustrated in the wireframe below
 
 ## Change Log
 
-03-05-2021 10:00pm: My project has a react application containing a form, and connected with a web server API to get data from depending on user input to form.
-04-05-2021 07:00pm: Application now has a fully-functional express server, with a GET route for the location resource.
+03-05-2021 01:30am: My project has a react application containing a form, and connected with a web server API to get data from depending on user input to form.
+04-05-2021 12:30pm: Application now has a fully-functional express server, with a GET route for the location resource.
 
 ## Credit and Collaborations
 
