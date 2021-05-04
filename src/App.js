@@ -22,10 +22,8 @@ class App extends React.Component {
   handleSubmit = async (event) => {
     try {
       event.preventDefault();
-      const url = `https://us1.locationiq.com/v1/search.php?key=pk.8df7f8bc5dee816b49ba58eb0d0e7367&q=${this.state.searchInput}&format=json`;
-      const myApi = await axios.get("http://localhost:3001/weather");
-      console.log(myApi);
-      console.log(myApi.data);
+      const url = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_KEY}&q=${this.state.searchInput}&format=json`;
+      const myApi = await axios.get(`${process.env.REACT_APP_SERVER}/weather`);
       const req = await axios.get(url);
       this.setState({
         data: req.data[0],
