@@ -101,3 +101,18 @@ Finish time: 07:30pm
 Actual time needed to complete: 1.5 hours
 
 ![WRRC](./src/assets/lab08.png)
+
+
+
+### Lab 10
+
+Name of feature: Advanced Topics
+
+
+Estimate of time needed to complete: 1 hours
+
+Start time: 08:00pm 
+
+Finish time: 09:30pm
+
+Actual time needed to complete: 1.5 hours
