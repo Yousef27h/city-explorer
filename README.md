@@ -87,3 +87,17 @@ Actual time needed to complete: 3.5 hours
 ![WRRC](./src/assets/lab08.png)
 
 
+### Lab 09
+
+Name of feature: Refactoring into Modules
+
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 06:00pm 
+
+Finish time: 07:30pm
+
+Actual time needed to complete: 1.5 hours
+
+![WRRC](./src/assets/lab08.png)
