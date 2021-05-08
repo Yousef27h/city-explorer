@@ -1,15 +1,30 @@
 import React, { Component } from "react";
+import Table from 'react-bootstrap/Table';
 
 export class Weather extends Component {
   render() {
-    return this.props.weatherData.map((data) => {
+    return (
+      <div>
+      <Table striped bordered hover size="sm" className="weatherTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Weather Description</th>
+        </tr>
+      </thead>
+      <tbody>
+      {this.props.weatherData.map((data) => {
       return (
-        <div>
-          <h3>{data.date}</h3>
-          <h3>{data.description}</h3>
-        </div>
+            <tr>
+              <td>{data.date}</td>
+              <td>{data.description}</td>
+            </tr>      
       );
-    });
+    })}
+    </tbody>
+      </Table>
+    </div>
+    )
   }
 }
 

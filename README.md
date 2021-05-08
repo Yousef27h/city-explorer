@@ -73,3 +73,17 @@ _web request-response cycle for the current lab_
 ![WRRC](./src/assets/lab07.JPG)
 
 
+### Lab 08
+
+Name of feature: APIs
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 02:00pm 
+
+Finish time: 05:30:00am
+Actual time needed to complete: 3.5 hours
+
+![WRRC](./src/assets/lab08.png)
+
+

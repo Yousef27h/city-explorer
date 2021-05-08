@@ -5,7 +5,7 @@ export class CardClass extends Component {
   render() {
     return (
       <div>
-        <Card style={{ width: "18rem" }} className="card">
+        <Card style={{ width: "18rem" }} className="card" className="mapCard">
           <Card.Img
             variant="top"
             src={`https://maps.locationiq.com/v3/staticmap?key=pk.8df7f8bc5dee816b49ba58eb0d0e7367&center=${this.props.lat},${this.props.lon}`}
